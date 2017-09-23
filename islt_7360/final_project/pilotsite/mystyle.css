@@ -16,10 +16,10 @@ header{ background-color: #eee;
         border-bottom: 2px solid #000000;}
 nav{ float: left;
      width: 150px;
-     background-color: #eee;}
+     background-color: #e2b90c;}
 aside{float: right;
       width: 200px;
-      background-color: #eee;}
+      background-color: #e2b90c;}
 main{ margin: 0 210px 0 160px;
       padding: 1px 10px 20px 10px;
       background-color: #fff3bf;
