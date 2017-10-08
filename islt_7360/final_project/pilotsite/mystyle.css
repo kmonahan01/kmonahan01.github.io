@@ -16,7 +16,6 @@ header{ background-color: #eee;
         border-bottom: 2px solid #000000;}
 nav{ float: left;
      width: 150px;
-     height: 900px;
      background-color: #e2b90c;}
 aside{float: right;
       width: 200px;
@@ -26,6 +25,7 @@ main{ margin: 0 210px 0 160px;
       background-color: #fff3bf;
       color: #000a6d;}
 nav ul{margin-top: 20px;
+       margin-bottom: 200px;
        list-style-type: none;}
 nav a {text-decoration: none;
        font-size: 1.2em;}
