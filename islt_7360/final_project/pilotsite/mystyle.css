@@ -16,6 +16,7 @@ header{ background-color: #eee;
         border-bottom: 2px solid #000000;}
 nav{ float: left;
      width: 150px;
+     height: 900px;
      background-color: #e2b90c;}
 aside{float: right;
       width: 200px;
