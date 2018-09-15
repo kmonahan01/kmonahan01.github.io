@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'badaboom_bbregular';
+    src: url('badabb__-webfont.woff2') format('woff2'),
+         url('badabb__-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+
+body{background-color: #fffdd0; 
+     font-family: sans-serif;
+     font-size: 1em;}
+
+h1{font-family: 'Pangolin';
+   font-size: 1.5em;
+   letter-spacing: .5em;
+   text-decoration: underline;
+   text-transform: capitalize;}
+
+h2{font-family: 'badaboom_bbregular';
+   font-size: 1.25em;
+   letter-spacing: .2em; 
+   text-decoration: overline;
+   text-transform: uppercase;}
+
+section{font-family: sans-serif;}
+
+h3{font-size: 1.1em; 
+   font-style: italic;
+   letter-spacing: .1em;
+   text-decoration: line-through;
+   text-transform: lowercase;}
+
+p{word-spacing: .25em;
+  text-indent: 3em;
+  margin-left: 3em;
+  border: 1px;
+  border-style: solid;
+  border-color: red;
+  line-height: 1.5;}
+
+blockquote{font-weight: bold; 
+           font-variant: small-caps; 
+           font-style: italic;
+           font-size: .9em;
+           font-family: helvetica, arial, sans-serif;
+           text-decoration: blink;
+           text-align: center;}
+
+.specialtext{color: black; 
+             font-size: 30px;}
+
+.highlight{background-color: yellow;}
+
+.sub{vertical-align: sub;}
+
+.sup{vertical-align: super;}
