@@ -3,7 +3,7 @@ body {font-family: 'Open Sans Condensed';
 	  background-color: darkgreen;
 	  margin: 10px;} /*helped to shrink the "main" portion of the article and aside. */
 
-header {background:#000;
+header {background: #000;
 		display: table;
 		width: 98.5%;
 		padding: 10px; /*width, padding, margin all help to see the border radii and shadow properly. */
@@ -19,42 +19,35 @@ header h1 {font-family:'Open Sans Condensed';
 	       font-weight:400;
 	       font-size:4em;
 		   letter-spacing:-.05em;
-		   width: 70%; /*used in conjunction with the width of the nav to create a "header" bar
+		   width: 60%; /*used in conjunction with the width of the nav to create a "header" bar
 		   				that fully covered the top portion of the screen */
 	       color:#fff;
-		   padding:10px 0 15px 25px;} /*more padding added around the website title--also allows
+		   padding:10px 0 15px 40px;} /*more padding added around the website title--also allows
 		   							  for the rounded corners to be seen better. */
  
 nav {display:table-cell;
-	 width: 30%; /*used in conjunction with the width of the header h1 to create a "header" bar
+	 width: 40%; /*used in conjunction with the width of the header h1 to create a "header" bar
 	             that fully covered the top portion of the screen */
 	 background:#000; /*changed the background of the navigation to black from peach/tan */
-     padding:20px 70px 0 0;}
+     padding:20px 60px 0 0;}
      
 nav li {list-style-type:none;
-		display: table-cell; /*made the navigation horizontal */
+		padding:3px 5px;
+		display: inline-block; /*made the navigation horizontal */
 		text-decoration: underline;}/*underlined the links to help make them appear as links
 									  and not just titles */
 
 nav a {font-family:'Open Sans Condensed';
 	   font-weight:700;
-	   font-size:.85em;
-	   color:#616161;}
+	   font-size: 1.4em;
+	   color:#fff;}
 	   
-.list0 ul {border:1px solid #000;
+ul {border:1px solid #000;
 		   border-radius:3px; padding:5px 10px 3px;}
 
-.list0 li {list-style-type:none;
-		   padding:3px 10px;}
+li + li {border-top:1px solid #000;}
 
-.list0 li + li {border-top:1px solid #000;}
-
-.list0 a {text-decoration:none;
-		  font:20px 'Exo', helvetica, arial, sans-serif;
-		  font-weight:400;
-		  color:#fff;} /*made the link color white to be easily seen on the black background */
-
-.list0 a:hover {color:#069;}
+a:hover {color:#069;}
 
 img {display:block; /* remove baseline spacing from under image */
 	 padding: 10px;
@@ -64,10 +57,12 @@ main {display: table; /*allows me to work with the article and aside as one */
 	  width: 90%;
 	  margin: 10px;
 	  padding: 10px;
-	  box-shadow: 4px 4px 5px #aaa;} 
+	  box-shadow: 4px 4px 5px #aaa;
+	  font-family: 'Open Sans Condensed';} 
 				  
 article {display:table-cell;
 		 background: #e0e0e0;
+		 font-family: 'Open Sans Condensed';
 		 width: 70%;
 		 padding: 10px 20px;
 		 box-shadow: 4px 4px 5px #aaa;
@@ -75,14 +70,14 @@ article {display:table-cell;
 		 						the "body" section so the article and aside portions do
 								not look separate. */
 
-article h1 {font-family:'Droid Sans';
+article h1 {font-family:'Open Sans Condensed';
 	        font-weight:700;
 	        font-size:1.5em;
 			letter-spacing:-.05em;
 			margin: 10px;
             color:#616161;}
             
-article h2 {font-family:'Droid Sans';
+article h2 {font-family:'Open Sans Condensed';
 			text-decoration: underline;
 	        font-weight:700;
 	        font-size:1.25em;
@@ -157,17 +152,18 @@ footer a {font-family:'Open Sans';
 				    border-radius: 0 0 10px 10px;}
 
 		article {display: block;
-				 width: 100%;
+				 width: 97.5%;
 				 padding: 10px;
 				 border-radius: 10px;
 				 margin-bottom: 10px;}
 
 		aside {display: block;
-			   width: 100%;
+			   width: 97.5%;
 			   padding: 10px;
-			   border-radius: 10px;}
+			   border-radius: 10px;
+			   margin-bottom: 10px;}
 
 		footer {display: block;
-				width: 100%;}
+				width: 98%;}
 	
 	}
